@@ -121,7 +121,7 @@ public class DefaultInvocationRequest implements InvocationRequest {
 
     private boolean ignoreTransitiveRepositories;
 
-    private List<String> args = new ArrayList<>();
+    private final List<String> args = new ArrayList<>();
 
     /**
      * <p>getBaseDirectory.</p>
